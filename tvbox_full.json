@@ -1,5 +1,4 @@
 {
-  "spider": "https://gitee.com/starlinkapi/jar/raw/master/jar/starlink.jar",
   "sites": [
     {
       "searchable": 1,
