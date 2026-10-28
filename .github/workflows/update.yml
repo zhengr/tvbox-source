@@ -31,6 +31,3 @@ jobs:
           # 推送到 GitHub（全量）
           git remote set-url origin https://zhengr:${GH_PAT}@github.com/zhengr/tvbox-source.git
           git push origin HEAD:master
-          rm -f tvbox_full.json
-          git commit -m "gitee: 移除被拦截的全量版"
-          git push gitee HEAD:main --force 2>/dev/null || echo "Gitee 推送跳过"
